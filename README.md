@@ -119,6 +119,6 @@ It's your favourite coder #ng_dev
 Follow me on :
 
 Instagram : <https://www.instagram.com/nguidjol_martin/>
-GitHub    : 
+GitHub    : <https://github.com/nguidjolmartin4>
 Email     : <nguidjolmartin4@gmail.com>
 Whatsapp  : <https://whatsapp.com/channel/0029VaDrn2V4o7qH1cMCOc1X>
