@@ -1,0 +1,3 @@
+---------------------------------------
+1000 XAF has been transferred from your account to 123456 successfully!
+Date and time of transaction : Thu Jan 04 14:21:19 2024

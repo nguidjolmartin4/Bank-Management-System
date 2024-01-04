@@ -67,7 +67,7 @@ int main() {
 
 void menu() {
     system("cls");
-    printf("\n+---------------+-------------+---------------+\n");
+    printf("+---------------+-------------+---------------+\n");
     printf("|               |  Main Menu  |               |\n");
     printf("+---------------+-------------+---------------+\n");
     printf("|       1 . Deposit Money                     |\n");
@@ -141,7 +141,9 @@ void transfer_money() {
     scanf("%d", &transfer_amt);
 
     if (amt < transfer_amt) {
-        printf("Your Balance is insufficient !");
+        printf("Your Balance is insufficient !\n");
+        printf("\nPress any key to continue...");
+        getch();
     } else {
         printf("Enter the account no. of the receiver\n=> ");
         scanf("%d", &account_num_a);
@@ -201,11 +203,13 @@ void transaction_details() {
 
 void last_details() {
 
-    printf("+----------------+----------------+\n");
+    printf("+----------------+---------------------+\n");
+    printf("|     Thanks for using our bank ...");
+    printf("+----------------+---------------------+\n");
     printf("| Name           | %s\n", name);
     printf("| Account Number | %d\n", account_num);
     printf("| Amount         | %d\n", amt);
-    printf("+----------------+----------------+\n");
+    printf("+----------------+---------------------+\n");
     printf("\nPress any key to continue...");
     getch();    
 };
